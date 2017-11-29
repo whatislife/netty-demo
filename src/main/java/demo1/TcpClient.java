@@ -52,7 +52,7 @@ public class TcpClient {
 			System.out.println("连接Server(IP{},PORT{})失败"+host+port+e);
 			return null;
 		}
-		return channel;
+		return channel;   
 	}
 
 	public static void sendMsg(String msg) throws Exception {
