@@ -61,6 +61,9 @@ public class TcpClient {
 		} else {
 //			LogCore.BASE.warn("消息发送失败,连接尚未建立!");
 			System.out.println("消息发送失败,连接尚未建立!");
+			
+			//whatis-life
+			
 		}
 	}
 
