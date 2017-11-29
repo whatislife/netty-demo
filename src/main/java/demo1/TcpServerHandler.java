@@ -1,4 +1,4 @@
-package demo1;
+﻿package demo1;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -16,5 +16,7 @@ public class TcpServerHandler extends SimpleChannelInboundHandler<Object> {
 //		LogCore.BASE.warn("exceptionCaught!", cause);
 		System.out.println("exceptionCaught!"+cause);
 		ctx.close();
+
+//123455
 	}
 }
