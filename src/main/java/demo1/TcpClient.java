@@ -22,7 +22,7 @@ public class TcpClient {
 	public static Channel channel = getChannel(HOST, PORT);
 
 	/**
-	 * 初始化Bootstrap
+	 * 初始化Bootstrap   
 	 */
 	public static final Bootstrap getBootstrap() {
 		EventLoopGroup group = new NioEventLoopGroup();
